@@ -114,7 +114,7 @@ public class Matchmaker implements ParserPruner {
     saveState.loadDynasties(dynasties);
     // and load each from dynasties.txt:
     parser = new ParadoxParser(
-        installationDir + File.separator + "common" + File.separator + "dynasties" + File.separator + "00_dynasties.txt",
+        installationDir + File.separator + "common" + File.separator + "dynasties.txt",
         "dynasties.txt parser");
     dynasties = new Node("dynasties.txt parser");
     parser.Parse(dynasties);
